@@ -3,6 +3,7 @@
 
 VOICEOFMINI is a voice assistant programmed using python. 
 This project has the following features:
+
 - Can tell the user the date, day and time
 - Can open Google and YouTube using simple commands
 - Can bring the user information from Wikipedia 
