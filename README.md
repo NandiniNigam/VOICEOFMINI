@@ -1,7 +1,7 @@
 # VOICEOFMINI - A voice assistant programmed by Nandini Nigam
 
 
-VOICEOFMINI is a voice assistant programmed using python. 
+VOICEOFMINI is a voice assistant programmed using Python. 
 This project has the following features:
 
 - Can tell the user the date, day and time.
