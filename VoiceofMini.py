@@ -2,10 +2,14 @@ import pyttsx3
 import datetime
 import speech_recognition as sr
 import webbrowser
+from tqdm import tqdm
 import wikipedia
 import pyjokes
 from turtle import *
 from emoji import emojize
+from time import sleep
+import os
+from tqdm import *
 
 engine = pyttsx3.init('sapi5')
 voices=engine.getProperty('voices')
@@ -41,11 +45,18 @@ def Command():
         return "None"
     return query
 
+def clear():
+    os.system('cls')
 
-
+def bar():
+    for i in tqdm(range(0,100),desc='LOADING',unit='instructions'):
+        sleep(0.02)
 
 if __name__=="__main__":
-    
+
+    clear()
+    bar()
+    clear()
     wish()
     while True:
         query=Command().lower()
